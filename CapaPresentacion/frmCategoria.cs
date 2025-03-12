@@ -42,14 +42,6 @@ namespace CapaPresentacion
             txtDescripcion.Text = string.Empty;
             cmbEstado.Text = string.Empty;
         }
-        private void Mostrar()
-        {
-            
-        }
-        private void BuscarNombre()
-        {
-            
-        }
         private void label2_Click(object sender, EventArgs e)
         {
             this.Close();

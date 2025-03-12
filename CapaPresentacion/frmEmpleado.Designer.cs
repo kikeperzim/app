@@ -75,7 +75,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.txtBuscar = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.pnlMenu.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -360,7 +359,6 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(249)))));
-            this.panel2.Controls.Add(this.button1);
             this.panel2.Controls.Add(this.btnLimpiar);
             this.panel2.Controls.Add(this.btnEditar);
             this.panel2.Controls.Add(this.btnGuardar);
@@ -636,15 +634,6 @@
             this.label9.TabIndex = 2;
             this.label9.Text = "Buscar";
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(23, 235);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(171, 50);
-            this.button1.TabIndex = 36;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // frmEmpleado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -722,6 +711,5 @@
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Button button1;
     }
 }
